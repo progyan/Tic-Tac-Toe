@@ -1,0 +1,120 @@
+.black {
+    background-color: lightgray;
+}
+
+.white {
+    background-color: white;
+}
+
+.abs {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100%;
+    width: 100%;
+    color: #222;
+}
+
+.floor {
+    left: 0;
+    bottom: 0 !important;
+    width: 100%;
+    color: white;
+    margin-bottom: 0;
+    background-image: linear-gradient(to right, #0058c7, #0078d7, #0058c7);*/
+    background-color: #0078d7;
+}
+
+span {
+    color: #f88;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+h2 {
+    font-size: 3vw;
+    margin-bottom: 50px;
+    font-family: 'Bungee', 'Josefin Sans', sans-serif;
+    color: coral;
+}
+
+h1, p {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px;
+}
+
+.posabs {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    margin: 0;
+    margin-left: 2vw;
+}
+
+#restart {
+    transition-duration: 0.5s;
+    transition-property: transform;
+}
+
+.mini {
+    font-size: 0.3em;
+    color: lightgray;
+}
+
+p {
+    color: white !important;
+    margin-bottom: 0;
+}
+
+td {
+    text-align: center;
+    font-size: 8vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    transition-delay: 0.1s;
+    transition-duration: 0.2s;
+    transition-property: color;
+}
+
+a {
+    transition-duration: 0.2s;
+    transition-property: color;
+    color: #222;
+    text-decoration: none;
+}
+
+a.ss {
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+a.ss:hover {
+    text-decoration: underline;
+    color: yellowgreen;
+}
+
+a:hover {
+    color: dimgray;
+}
+
+.black, .white {
+    width: 11vh;
+    height: 11vh;
+}
+
+table {
+    border-collapse: collapse;
+    border: solid dimgray 4px;
+    display: table;
+    margin: 0 auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    vertical-align: middle;
+}
+
+html, body {
+    width: 100%;
+    margin: 0px;
+}
