@@ -117,17 +117,17 @@
             }
             
             function restart(){
-                board = [
+                /*board = [
                     [9, 9, 9],
                     [9, 9, 9],
                     [9, 9, 9]
-                ];
+                ];*/
                 /*for(let i = 0; i < 3; i++){
                     for(let j = 0; j < 3; j++){
                         setTimeout(function(){}, 1)// = '';
                     }
                 }*/
-                document.getElementById('11').innerHTML = '';
+                /*document.getElementById('11').innerHTML = '';
                 document.getElementById('12').innerHTML = '';
                 document.getElementById('13').innerHTML = '';
                 document.getElementById('21').innerHTML = '';
@@ -144,11 +144,12 @@
                 document.getElementById('23').onclick = 'addTic(this)';
                 document.getElementById('31').onclick = 'addTic(this)';
                 document.getElementById('32').onclick = 'addTic(this)';
-                document.getElementById('33').onclick = 'addTic(this)';
+                document.getElementById('33').onclick = 'addTic(this)';*/
                 
-                tac = 'X';
-                document.getElementById('display').innerHTML = 'X\'s turn';
-                clearInterval(restartLite);
+                //tac = 'X';
+                //document.getElementById('display').innerHTML = 'X\'s turn';
+                //clearInterval(restartLite);
+                location.reload();
             }
         </script>
     </body>
