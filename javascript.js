@@ -6,12 +6,14 @@ let board = [
     [9, 9, 9]
 ];
 
-let tac = 'X';
+let tac;
 let tacTurn;
 if(Math.floor(Math.random() * 2) % 2){
     tacTurn = 'Your';
+    tac = 'X';
 }else{
     tacTurn = 'My';
+    tac = '0';
 }
 document.getElementById('display').innerHTML = tacTurn + ' turn';
 
