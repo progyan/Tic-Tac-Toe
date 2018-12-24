@@ -8,12 +8,12 @@ let board = [
 
 let tac = 'X';
 let tacTurn;
-if((Math.random() * 2) % 2){
+if(Math.floor(Math.random() * 2) % 2){
     tacTurn = 'Your';
 }else{
     tacTurn = 'My';
 }
-document.getElementById('display').innerHTML = tacTurn + ' turn'
+document.getElementById('display').innerHTML = tacTurn + ' turn';
 
 function addTic(el){
     if(el.innerHTML === ''){
